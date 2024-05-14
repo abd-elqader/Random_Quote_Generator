@@ -6,3 +6,11 @@ button:hover {
     background-color: green;
     padding: 200px;
 }
+
+.w-90 {
+    width: 90%;
+}
+
+h1 {
+    font-size: 80px;
+}

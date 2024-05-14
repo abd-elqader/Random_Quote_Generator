@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quotes App</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="mx-auto w-75 text-center p-5 m-5">
-        <h1 class="fw-bold fs-1">Quote of the Day</h1>
+    <div class="mx-auto w-90 text-center my-5 py-5 mx-auto">
+        <h1 class="fw-bold">Quote of the Day</h1>
         <h3>Press the button below to recieve a random quote!</h3>
         <button onclick="changeIndex()" class="text-white border-2 px-5 py-3 m-3">New Quote</button>
-        <p id="quote">
-            "Do not take life too seriously. You will not get out alive."
-
-            --Elbert Hubbard
-        </p>
+        <div>
+            <h2 id="quote" class="my-5"></h2> 
+            <h3>--<span id="name"></span></h3>
+        </div>
     </div>
-
     <script src="./js/script.js"></script>
 </body>
 </html>
